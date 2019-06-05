@@ -1,1 +1,1 @@
-web: gunicorn hero.wsgi.application --pythonpath app --log-file -
+web: gunicorn hero.wsgi:application --pythonpath app --log-file -
